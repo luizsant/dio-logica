@@ -1,0 +1,40 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+h1 {
+  color: #d42026; /* Vermelho Marvel */
+}
+
+input,
+button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  width: 200px;
+}
+
+button {
+  background-color: #202020; /* Preto */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #d42026; /* Vermelho ao passar o mouse */
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #202020;
+}
